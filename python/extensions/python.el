@@ -2712,7 +2712,7 @@ to \"^python-\"."
 Entry to this mode calls the value of `python-mode-hook'
 if that value is non-nil."
   (set (make-local-variable 'tab-width) 4)
-  (set (make-local-variable 'indent-tabs-mode) nil)
+  (set (make-local-variable 'indent-tabs-mode) t)
 
   (set (make-local-variable 'comment-start) "# ")
   (set (make-local-variable 'comment-start-skip) "#+\\s-*")
